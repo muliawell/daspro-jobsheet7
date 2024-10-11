@@ -1,7 +1,6 @@
     import java.util.Scanner;
     public class KafeDoWhile14 {
     public static void main (String[] args) {
-        @SuppressWarnings("resource") // saran agar tidak ada problem
         Scanner sc = new Scanner(System.in);
         int kopi, teh, roti, totalharga;
         int hargakopi = 12000, hargateh = 7000, hargaroti = 20000;
